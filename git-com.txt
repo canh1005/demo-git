@@ -1,0 +1,11 @@
+khởi tạo git: git init
+kết nối với repo: git remote add origin url-repo
+kiểm tra trạng thái của source: git status
+	+ file màu đỏ: file đã thay đổi nhưng chưa save 
+	+ file màu xanh: file đã thay đổi đã được save
+Save những file đã thay đổi (working copy -> staging area): git add file-name hoặc . (. : tất cả file)
+Để commit file: git commit "message của mình (example: done ...)"
+Để định danh: 	+ git config --global user.email "you@example.com"
+  				+ git config --global user.name "Your Name"
+Để push lên git: + git push -u origin master (lần đầu tiên)
+				 + git push (lần >2) 
