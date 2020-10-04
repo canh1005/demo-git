@@ -12,3 +12,10 @@ Save những file đã thay đổi (working copy -> staging area): git add file-
 Tạo ra 1 branch mới: git checkout -b branch-name (copy code từ branch hiện tại sang branch mới)
 Chuyển branch: git checkout branch-name
 Cập nhật code từ remot về local: git pull
+Cách fix conflict khi tạo pull request:
+	b1. git checkout master
+	b2. git pull
+	b3. git checkout branch-conflict
+	b4. git merge master
+	b5. fix conflict
+	b6. git add, commit, push
