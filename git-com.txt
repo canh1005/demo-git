@@ -9,4 +9,6 @@ Save những file đã thay đổi (working copy -> staging area): git add file-
   				+ git config --global user.name "Your Name"
 Để push lên git: + git push -u origin master (lần đầu tiên)
 				 + git push (lần >2) 
-Tạo ra 1 branch mới: git branch -b branch-name (copy code từ branch hiện tại sang branch mới)
+Tạo ra 1 branch mới: git checkout -b branch-name (copy code từ branch hiện tại sang branch mới)
+Chuyển branch: git checkout branch-name
+Cập nhật code từ remot về local: git pull
