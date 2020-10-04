@@ -7,7 +7,7 @@ Save những file đã thay đổi (working copy -> staging area): git add file-
 Để commit file: git commit "message của mình (example: done ...)"
 Để định danh: 	+ git config --global user.email "you@example.com"
   				+ git config --global user.name "Your Name"
-Để push lên git: + git push -u origin master (lần đầu tiên)
+Để push lên git: + git push -u origin name-branch (name-branch : example master,...; lần đầu tiên)
 				 + git push (lần >2) 
 Tạo ra 1 branch mới: git checkout -b branch-name (copy code từ branch hiện tại sang branch mới)
 Chuyển branch: git checkout branch-name
